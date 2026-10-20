@@ -6,3 +6,9 @@ let map = idades.map((idade) => idade * 20);
 
 console.log(filter);
 console.log(map);
+
+let filterEhMapJuntos = idades
+ .map((idades) => idades * 2)
+ .filter((idade) => idade > 20);
+
+console.log(filterEhMapJuntos);
